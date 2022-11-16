@@ -37,15 +37,17 @@ body {
 }
 
 .pokemon__image {
+    width: 70px;
+    height: 70px;
     position: relative;
-    top: 40%;
+    top: 35%;
     left: 35%;
 }
 
 .pokemon__data {
     position: relative;
-    top: 48%;
-    left: 31%;
+    top: 42%;
+    left: 35%;
 }
 
 .form {
@@ -58,6 +60,45 @@ body {
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: 70%;
-    right: 3vh;
+    top: 65%;
+    right: 6%;
+}
+
+.btn-prev {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #676767;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(54, 54, 54);
+}
+
+.btn-next {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #676767;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(54, 54, 54);
+}
+
+.button:active {
+  background-color: #8a8a8a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.pokemon__name {
+    font-size: 30px;
+}
+.pokemon__number {
+    font-size: 30px;
 }
